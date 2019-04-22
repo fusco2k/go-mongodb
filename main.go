@@ -1,14 +1,13 @@
 package main
 
 import (
-	// "context"
 	"fmt"
+	"log"
+
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"log"
-	// "time"
 )
 
 //Patient struct to receive data from DB
